@@ -1,0 +1,23 @@
+{
+  "name": "@mw-experts/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier config",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Andrey Korovin",
+    "email": "misticwonder@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mw-experts/prettier-config.git"
+  },
+  "homepage": "https://github.com/mw-experts/prettier-config#readme",
+  "scripts": {
+    "patch": "npm version patch",
+    "deploy": "npm publish --access=public"
+  }
+}
